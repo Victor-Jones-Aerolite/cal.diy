@@ -1,5 +1,5 @@
 
 {
-  "installCommand": "env -u YARN_ENABLE_INTERACTIVE YARN_ENABLE_STRICT_SETTINGS=false YARN_NETWORK_CONCURRENCY=2 YARN_ENABLE_GLOBAL_CACHE=true NODE_OPTIONS=--max-old-space-size=1024 yarn install",
+  "installCommand": "env -u YARN_ENABLE_INTERACTIVE YARN_ENABLE_STRICT_SETTINGS=false NODE_OPTIONS=--max-old-space-size=1024 yarn workspaces focus @calcom/web",
   "nodeVersion": "22.11.0"
 }
