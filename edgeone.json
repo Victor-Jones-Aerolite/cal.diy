@@ -1,0 +1,5 @@
+
+{
+  "installCommand": "env -u YARN_ENABLE_INTERACTIVE YARN_ENABLE_STRICT_SETTINGS=false yarn install",
+  "nodeVersion": "22.11.0"
+}
